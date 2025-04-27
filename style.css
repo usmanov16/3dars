@@ -1,0 +1,101 @@
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  background: #fefcf7;
+  width: 1440px;
+  height: 3595px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  padding-top: 43.5px;
+  padding-bottom: 43.5px;
+  padding-left: 80.1px;
+  margin-right: auto;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  margin-left: auto;
+}
+a {
+  text-decoration: none;
+  color: #83888f;
+  margin-right: 33px;
+}
+.container {
+}
+.site-logo {
+  width: 236px;
+  height: 26px;
+  padding-left: 80.1px;
+  margin-top: 44px;
+  padding-bottom: 44px;
+}
+.site-logo__image {
+}
+.hero {
+}
+.hero-text {
+}
+.hero__description {
+}
+.default__btn {
+  background: #0e8784;
+  color: #fefcf7;
+  font-weight: 900;
+  font-size: 18px;
+  padding: 14px 30px;
+  line-height: 25px;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  border: none;
+  white-space: nowrap;
+}
+.btn {
+  color: #fefcf7;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url("./images/coffee1.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.hero-text {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: white;
+  max-width: 400px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
