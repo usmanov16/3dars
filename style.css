@@ -79,6 +79,12 @@ a {
   background-position: center;
   border-radius: 16px;
   overflow: hidden;
+  width: 1280px;
+  height: 600px;
+  padding-top: 113px;
+  padding-left: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .hero-text {
@@ -98,4 +104,119 @@ a {
   font-size: 1rem;
   margin-bottom: 2rem;
   color: #ccc;
+}
+.collection {
+  position: relative;
+  text-align: center;
+  padding: 100px 20px 50px;
+  background: #f3f3f3;
+  overflow: hidden;
+}
+
+.collection::before {
+  content: "our collection";
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 100px;
+  color: #e0e0e0;
+  opacity: 0.3;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 120px;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.product h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #777;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.why-choose-us {
+  background: #2c343e;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  width: 1280px;
+  height: 728px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 10px;
+}
+
+.why-choose-us h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.why-choose-us p {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: -151px;
+}
+
+.benefit {
+  background: #006d77;
+  padding: 30px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.benefit:hover {
+  background: #008891;
+}
+
+.benefit img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.benefit h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.benefit p {
+  font-size: 14px;
+  color: #eee;
 }
